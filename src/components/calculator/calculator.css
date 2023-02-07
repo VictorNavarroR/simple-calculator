@@ -1,0 +1,6 @@
+.calculator{
+    width: max(100%, 500px);
+    background: rgb(44, 42, 42);
+    border-radius: 30px;
+    padding: 30px 20px;
+}

@@ -1,0 +1,25 @@
+.calculator-keyboard {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ margin-top: 15px;
+ gap: 2px;
+}
+
+.calculator-keyboard button {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: rgb(31, 29, 29);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.calculator-keyboard button:hover{
+    background-color: rgb(18, 9, 26);
+}
+.calculator-keyboard .equal {
+    grid-column-start: span 2;
+    aspect-ratio: 2 / 1;
+    background-color: rgb(240, 160, 56);
+}
